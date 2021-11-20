@@ -259,7 +259,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             disableButtons()
 
         }else if(roundPlayed == 9){
-            Toast.makeText(this, "tamashi morcha fred", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "game is draw", Toast.LENGTH_SHORT).show()
             disableButtons()
         }
 
